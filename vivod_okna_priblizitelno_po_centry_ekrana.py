@@ -5,7 +5,7 @@ import sys
 
 app = QtWidgets.QApplication(sys.argv)
 window = QtWidgets.QWidget() # Создаем окно
-window.setWindowTitle("Вывод окна по центру экрана")
+window.setWindowTitle("Вывод окна приблизительно по центру экрана")
 window.resize(300, 100)
 
 desktop = QtWidgets.QApplication.desktop()
