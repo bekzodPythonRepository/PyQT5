@@ -16,7 +16,7 @@ pal.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window,
              QtGui.QBrush(pixmap))
 window.setPalette(pal)
 window.setMask(pixmap.mask())
-button = QtWidgets.QPushButton("Закрыть окно")
+button = QtWidgets.QPushButton("Закрыть окно", window)
 button.setFixedSize(150, 30)
 button.move(75, 135)
 button.clicked.connect(QtWidgets.qApp.quit)
